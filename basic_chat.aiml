@@ -1,0 +1,19 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+    <category>
+        <pattern>* HELLO</pattern>
+        <template>
+          <random>
+            <li>Well, hello lil <star index="1" /></li>
+            <li>How you doin' crooked <star index="1" />?</li>
+            <li>Don't talk to me slimy <star index="1" /></li>
+          </random>
+        </template>
+    </category>
+    <category>
+      <pattern>* HELLO *</pattern>
+      <template>
+         <srai><star/> HELLO </srai>
+      </template>
+    </category>
+</aiml>
