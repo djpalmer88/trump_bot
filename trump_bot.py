@@ -13,6 +13,9 @@ users = api_call.get("members")
 username_dicts = [{user["id"]: user["name"]} for user in users]
 usernames = {}
 for username in username_dicts:
+    for key, value in username.items():
+        if value == "yanir":
+            username[key] = "tanir"
     usernames.update(username)
 
 k = aiml.Kernel()
@@ -25,7 +28,10 @@ def handle_command(command, channel, user_name):
         Receives commands directed at Lord Trump and he answers them
     """
     print(user_name)
-    response = k.respond(user_name + " " + command)
+    response = k.respond(user_name.capitalize() + " " + command)
+    if not response:
+        response = "Look %s, I don't know what you're trying to say and I don't care" % user_name.capitalize()
+    response = process_final_response(response)
     slack_client.api_call("chat.postMessage", channel=channel, text=response, as_user=True)
 
 def parse_slack_output(slack_rtm_output):
@@ -41,6 +47,9 @@ def parse_slack_output(slack_rtm_output):
                 return output['text'].split(AT_BOT)[1].strip().lower(), output['channel'], usernames[output['user']]
     return None, None, None
 
+def process_final_response(response):
+    return response.replace("yanir", "tanir")
+    
 if __name__ == "__main__":
     READ_WEBSOCKET_DELAY = 1 # 1 second delay between reading
     if slack_client.rtm_connect():
@@ -51,4 +60,4 @@ if __name__ == "__main__":
                 handle_command(command, channel, user_name)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
-        print("Connection failed. Did those Mexicans build a wall?")
+        print("Connection failed. Time to build a wall?")

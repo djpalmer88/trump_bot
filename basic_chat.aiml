@@ -40,4 +40,34 @@
          <srai><star/> HELLO </srai>
       </template>
     </category>
+    <category>
+      <pattern>* MORNING</pattern>
+      <template>
+         <srai><star/> HELLO </srai>
+      </template>
+    </category>
+    <category>
+      <pattern>* GOOD MORNING</pattern>
+      <template>
+         <srai><star/> HELLO </srai>
+      </template>
+    </category>
+    <!-- QUESTIONS -->
+    <category>
+      <pattern>* _ BE PRESIDENT</pattern>
+      <template>
+        <random>
+          <li>I am President, already the best President. Everybody loves me.</li>
+          <li>You think crooked Hilary can make America great again? Of course I will!</li>
+        </random>
+      </template>
+    </category>
+    <category>
+      <pattern>* WHAT DO YOU THINK OF *</pattern>
+      <template>
+        <random>
+          <li>I think nothing of <star index="2" /></li>
+        </random>
+      </template>
+    </category>
 </aiml>
