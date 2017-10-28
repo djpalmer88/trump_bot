@@ -13,6 +13,7 @@
         <template>
             <learn>insult_greeting.aiml</learn>
             <learn>what_do_you_think_of.aiml</learn>
+            <learn>unpresidential.aiml</learn>
             <learn>denial.aiml</learn>
             <!-- You can add more aiml files here -->
             <!--<learn>more_aiml.aiml</learn>-->
