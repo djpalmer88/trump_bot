@@ -1,0 +1,15 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>False, malicious and libelous</li>
+        <li>Not true</li>
+        <li>Total lie!</li>
+        <li>FAKE NEWS!</li>
+        <li>#FakeNews</li>
+        <li>crazy</li>
+      </random>
+    </template>
+  </category>
+</aiml>

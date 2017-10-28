@@ -1,0 +1,52 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>* WHAT DO YOU THINK OF *</pattern>
+    <template>I think <star index="2" /> is <srai>INSULT RESPONSE</srai>!</template>
+  </category>
+
+  <category>
+    <pattern>INSULT RESPONSE</pattern>
+    <template>
+      <random>
+        <li>a great threat and embarrassment to China</li>
+        <li>largely responsible for the horrendous Iran Deal</li>
+        <li>showing total disrespect to our Flag and Country</li>
+        <li>laughable</li>
+        <li>all talk, talk, talk - no action or results</li>
+        <li>a low-class slob</li>
+        <li>bad for jobs</li>
+        <li>VERY weak on crime and illegal immigration</li>
+        <li>in the way of our great agenda</li>
+        <li>weak on crime and security</li>
+        <li>such a negative force when it comes to fixing healthcare</li>
+        <li>one of the worst presidential candidates in history</li>
+        <li>mathematically dead and totally desperate</li>
+        <li>looking for a new puppet</li>
+        <li>a sad case</li>
+        <li>a @FoxNews flunky</li>
+        <li>in the pocket of Wall Street</li>
+        <li>obviously a madman</li>
+        <li>a Little Rocket Man</li>
+        <li>rambling, overly flamboyant</li>
+        <li>trying to extort $1,000,000.00 from me</li>
+        <li>the WORST abuser of woman in U.S. political history</li>
+        <li>totally incompetent as a manager and leader</li>
+        <li>afraid of Obama and the emails</li>
+        <li>pushing the false narrative that I want to raise taxes</li>
+        <li>A PATHOLOGICAL LIAR</li>
+        <li>Unfit to serve as #POTUS</li>
+        <li>a phony Vietnam con artist</li>
+        <li>at the bottom of the barrel</li>
+        <li>Just another clueless politician</li>
+        <li>a total waste of money</li>
+        <li>a total clown</li>
+        <li>dumb as a rock</li>
+        <li>one of the dumbest political pundits on television</li>
+        <li>a terrible representative of Evangelicals</li>
+        <li>a nasty guy with no heart</li>
+        <li>a hostile basket case who feels jilted</li>
+        <li>[one] of the dumbest people in politics</li>
+      </random>
+    </template>
+  </category>
+</aiml>
