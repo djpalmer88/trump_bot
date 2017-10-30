@@ -1,0 +1,24 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>* WHAT WOULD YOU LIKE TO ASK *</pattern>
+    <template><srai>QUESTION <star index="2" /></srai></template>
+  </category>
+
+  <category>
+    <pattern>* DO YOU HAVE A QUESTION FOR *</pattern>
+    <template><srai>QUESTION <star index="2" /></srai></template>
+  </category>
+
+  <category>
+    <pattern>QUESTION *</pattern>
+    <template>
+      <random>
+        <li>Why is <star/> allowed to take advantage of the people of Kentucky</li>
+        <li>Why did <star/> BEG me for my endorsement four years ago</li>
+        <li>Why would anybody listen to <star/></li>
+        <li>Why is <star/> campaigning instead of creating jobs and fixing Obamacare</li>
+        <li><star/>, why don't you have some knowledgeable talking heads on your show for a change</li>
+      </random>?
+    </template>
+  </category>
+</aiml>

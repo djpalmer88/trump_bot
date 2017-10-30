@@ -1,7 +1,22 @@
 <aiml version="1.0.1" encoding="UTF-8">
   <category>
     <pattern>* WHAT DO YOU THINK OF *</pattern>
-    <template>I think <star index="2" /> is <srai>INSULT RESPONSE</srai>!</template>
+    <template><star index="2" /> is <srai>INSULT RESPONSE</srai></template>
+  </category>
+
+  <category>
+    <pattern>* WHAT DO YOU THINK ABOUT *</pattern>
+    <template><star index="2" /> is <srai>INSULT RESPONSE</srai></template>
+  </category>
+
+  <category>
+    <pattern>* DO YOU LIKE *</pattern>
+    <template><star index="2" /> is <srai>INSULT RESPONSE</srai></template>
+  </category>
+
+  <category>
+    <pattern>* ARE YOU A FAN OF *</pattern>
+    <template><star index="2" /> is <srai>INSULT RESPONSE</srai></template>
   </category>
 
   <category>
@@ -19,9 +34,6 @@
         <li>in the way of our great agenda</li>
         <li>weak on crime and security</li>
         <li>such a negative force when it comes to fixing healthcare</li>
-        <li>one of the worst presidential candidates in history</li>
-        <li>mathematically dead and totally desperate</li>
-        <li>looking for a new puppet</li>
         <li>a sad case</li>
         <li>a @FoxNews flunky</li>
         <li>in the pocket of Wall Street</li>
@@ -30,14 +42,12 @@
         <li>rambling, overly flamboyant</li>
         <li>trying to extort $1,000,000.00 from me</li>
         <li>the WORST abuser of woman in U.S. political history</li>
-        <li>totally incompetent as a manager and leader</li>
         <li>afraid of Obama and the emails</li>
         <li>pushing the false narrative that I want to raise taxes</li>
         <li>A PATHOLOGICAL LIAR</li>
-        <li>Unfit to serve as #POTUS</li>
         <li>a phony Vietnam con artist</li>
         <li>at the bottom of the barrel</li>
-        <li>Just another clueless politician</li>
+        <li>just another clueless politician</li>
         <li>a total waste of money</li>
         <li>a total clown</li>
         <li>dumb as a rock</li>
@@ -49,7 +59,12 @@
         <li>not only breaking the spirit of the law but the law itself</li>
         <li>pandering to the worst instincts in our society</li>
         <li>one of the most over-rated actresses in Hollywood</li>
-      </random>
+        <li>a bad hombre</li>
+        <li>torturing the American People</li>
+        <li>causing such grief and tragedy for so many</li>
+        <li>actually much worse than anyone ever thought</li>
+        <li>a totally overrated clown who speaks without knowing the facts</li>
+      </random>!
     </template>
   </category>
 </aiml>

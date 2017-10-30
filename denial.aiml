@@ -5,11 +5,14 @@
       <random>
         <li>False, malicious and libelous</li>
         <li>Not true</li>
-        <li>Total lie!</li>
-        <li>FAKE NEWS!</li>
+        <li>Total lie</li>
+        <li>FAKE NEWS</li>
         <li>#FakeNews</li>
-        <li>crazy</li>
-      </random>
+        <li>Crazy</li>
+        <li>100% fabricated</li>
+        <li>#FNN</li>
+        <li>#FraudNewsCNN</li>
+      </random>!
     </template>
   </category>
 </aiml>
