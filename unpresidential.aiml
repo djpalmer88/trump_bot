@@ -1,0 +1,53 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>* CAN * BECOME PRESIDENT</pattern>
+    <template><srai>UNPRESIDENTIAL RESPONSE <star index="2" /></srai></template>
+  </category>
+
+  <category>
+    <pattern>* WOULD * BE A GOOD PRESIDENT</pattern>
+    <template><srai>UNPRESIDENTIAL RESPONSE  <star index="2" /></srai></template>
+  </category>
+
+  <category>
+    <pattern>* IS * PRESIDENTIAL MATERIAL</pattern>
+    <template><srai>UNPRESIDENTIAL RESPONSE  <star index="2" /></srai></template>
+  </category>
+
+  <category>
+    <pattern>* CAN * BE A GOOD PRESIDENT</pattern>
+    <template><srai>UNPRESIDENTIAL RESPONSE  <star index="2" /></srai></template>
+  </category>
+
+  <category>
+    <pattern>UNPRESIDENTIAL RESPONSE *</pattern>
+    <template>
+      <random>
+        <li><star/> doesn't even look presidential</li>
+        <li><star/> is unfit to be president</li>
+        <li><star/> would be a disaster</li>
+        <li><star/> is unfit to serve as President</li>
+        <li><star/> will sell our country down the tubes</li>
+        <li><star/> will NEVER be able to solve the problems of poverty, education and safety</li>
+        <li><star/> doesn't have the strength or the stamina to MAKE AMERICA GREAT AGAIN</li>
+        <li><star/> suffers from BAD JUDGEMENT</li>
+        <li>As Bernie Sanders said, <star/> has bad judgement</li>
+        <li>Anybody whose mind 'SHORT CIRCUITS' is not fit to be our president! Look up the word 'BRAINWASHED'</li>
+        <li>If we let #Crooked<star/> runs the govt, history will remember 2017 as the year America lost its
+            independence</li>
+        <li>We need a #POTUS with great strength and stamina. <star/> does not have that</li>
+        <li>Lyin' <star/> should drop out of the race-stop wasting time money</li>
+        <li>Never in U.S. history has anyone lied or defrauded voters like <star/></li>
+        <li><star/> is one of the worst presidential candidates in history</li>
+        <li><star/> is totally incompetent as a manager and leader</li>
+        <li><star/> registers ZERO in the polls</li>
+        <li><star/> is unfit to serve as #POTUS</li>
+        <li><star/> graduated last in their class--dummy</li>
+        <li><star/> works really hard but is a guy who just doesn't have it--a total loser</li>
+        <li><star/> is a dummy. Just look at <star/>'s past</li>
+        <li><star/> says one thing for money, does another for votes</li>
+        <li><star/> is the biggest liar in politics</li>
+      </random>!
+    </template>
+  </category>
+</aiml>

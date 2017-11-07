@@ -1,0 +1,87 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>* HELLO</pattern>
+    <template> Hello <srai>INSULTS</srai> <star/>.</template>
+  </category>
+
+  <category>
+    <pattern>* HELLO *</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HEY *</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HI *</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HEY</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* HI</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* MORNING</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* GOOD MORNING</pattern>
+    <template>
+       <srai><star/> HELLO </srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>INSULTS</pattern>
+    <template>
+      <random>
+        <li>dopey</li>
+        <li>pathetic</li>
+        <li>wacky</li>
+        <li>terrible</li>
+        <li>crazy</li>
+        <li>cryin'</li>
+        <li>desperate</li>
+        <li>corrupt</li>
+        <li>crooked</li>
+        <li>stupid</li>
+        <li>sad</li>
+        <li>pathetic</li>
+        <li>phoney</li>
+        <li>disloyal</li>
+        <li>inept</li>
+        <li>dangerous</li>
+        <li>disgraceful</li>
+        <li>sleepy eyes</li>
+        <li>strange</li>
+        <li>flunky</li>
+        <li>arrogant</li>
+        <li>wacko</li>
+        <li>liddle'</li>
+        <li>liberal clown</li>
+      </random>
+    </template>
+  </category>
+</aiml>
